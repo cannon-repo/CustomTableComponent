@@ -4,18 +4,17 @@ import './index.scss';
 import Table from './Components/Table/Table';
 
 const data = [
-  { id: 1, name: 'John Doe', age: 30, occupation: 'Engineer', department: 'IT', location: 'New York' },
-  { id: 2, name: 'Jane Smith', age: 25, occupation: 'Designer', department: 'Design', location: 'Los Angeles' },
-  { id: 3, name: 'Bob Johnson', age: 40, occupation: 'Manager', department: 'HR', location: 'Chicago' },
-  { id: 4, name: 'Alice Williams', age: 28, occupation: 'Software Developer', department: 'IT', location: 'San Francisco' },
-  { id: 5, name: 'Michael Brown', age: 35, occupation: 'Product Manager', department: 'Product', location: 'Seattle' },
-  { id: 6, name: 'Emily Davis', age: 32, occupation: 'UX/UI Designer', department: 'Design', location: 'Boston' },
-  { id: 7, name: 'Alex Martinez', age: 27, occupation: 'Data Analyst', department: 'Analytics', location: 'Austin' },
-  { id: 8, name: 'Sophia Lee', age: 38, occupation: 'Finance Manager', department: 'Finance', location: 'San Diego' },
-  { id: 9, name: 'William Wilson', age: 33, occupation: 'Sales Executive', department: 'Sales', location: 'Denver' },
-  { id: 10, name: 'Olivia Miller', age: 29, occupation: 'Marketing Specialist', department: 'Marketing', location: 'Miami' },
+  { Id: 1, Name: 'John Doe', Age: 30, Occupation: 'Engineer', Department: 'IT', Location: 'New York' },
+  { Id: 2, Name: 'Jane Smith', Age: 25, Occupation: 'Designer', Department: 'Design', Location: 'Los Angeles' },
+  { Id: 3, Name: 'Bob Johnson', Age: 40, Occupation: 'Manager', Department: 'HR', Location: 'Chicago' },
+  { Id: 4, Name: 'Alice Williams', Age: 28, Occupation: 'Software Developer', Department: 'IT', Location: 'San Francisco' },
+  { Id: 5, Name: 'Michael Brown', Age: 35, Occupation: 'Product Manager', Department: 'Product', Location: 'Seattle' },
+  { Id: 6, Name: 'Emily Davis', Age: 32, Occupation: 'UX/UI Designer', Department: 'Design', Location: 'Boston' },
+  { Id: 7, Name: 'Alex Martinez', Age: 27, Occupation: 'Data Analyst', Department: 'Analytics', Location: 'Austin' },
+  { Id: 8, Name: 'Sophia Lee', Age: 38, Occupation: 'Finance Manager', Department: 'Finance', Location: 'San Diego' },
+  { Id: 9, Name: 'William Wilson', Age: 33, Occupation: 'Sales Executive', Department: 'Sales', Location: 'Denver' },
+  { Id: 10, Name: 'Olivia Miller', Age: 29, Occupation: 'Marketing Specialist', Department: 'Marketing', Location: 'Miami' },
 ];
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
