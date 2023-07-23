@@ -10,7 +10,7 @@ const TableWrapper = ({ data }) => {
 
   return (
     <div className="TableWrapper">
-      <ColumnFilter setShowModal={setShowModal} showModal={showModal}/>
+      <ColumnFilter setShowModal={setShowModal} showModal={showModal} keys={data[0]}/>
       <Filters setShowModal={setShowModal}/>
       <Table data={data} />
     </div>
