@@ -1,0 +1,47 @@
+.EachFilter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        background-color: #fff;
+        border: 2px solid red;
+        font-family: 'Quicksand';
+        color: red;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input {
+        border: none;
+        border-bottom: 2px solid #cecece;
+        color: #000;
+        font-family: 'Quicksand';
+        font-size: 14px;
+        background-color: transparent;
+        padding: 5px 10px;
+    }
+
+    select {
+        background-color: transparent;
+        border: 1px solid #cecece;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 5px 10px;
+        outline: none;
+
+        option {
+            font-family: 'Open Sans';
+        }
+
+    }
+}

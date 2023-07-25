@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import Table from './Components/Table/Table';
+import TableWrapper from './Components/TableWrapper/TableWrapper';
 
 const data = [
   { Id: 1, Name: 'John Doe', Age: 30, Occupation: 'Engineer', Department: 'IT', Location: 'New York' },
@@ -19,6 +19,6 @@ const data = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Table data={data} />
+    <TableWrapper data={data} />
   </React.StrictMode>
 );

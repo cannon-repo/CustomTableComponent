@@ -1,0 +1,31 @@
+.SearchFilterWrap {
+    display: flex;
+    font-family: 'Raleway';
+    
+    input {
+        padding: 10px 20px;
+        background-color: rgb(240,240,240);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 14px;
+        caret-color: #000;
+        font-family: 'Raleway';
+    }
+
+    button {
+        border-radius: 20px;
+        padding: 10px 30px;
+        margin: 0px 20px;
+        border: 2px solid var(--theme-color);
+        font-size: 12px;
+        color: var(--theme-color);
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'Quicksand';
+        letter-spacing: 1px;
+        background-color: #fff;
+        font-weight: bolder;
+    }
+}
