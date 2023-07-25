@@ -1,6 +1,7 @@
 import React from "react";
 import "./ColumnFilter.scss";
 import EachFilter from "../EachFilter/EachFilter";
+import {RiAddFill} from "react-icons/ri";
 
 const ColumnFilter = ({ showModal, setShowModal, keys }) => {
   const style = {
@@ -17,7 +18,7 @@ const ColumnFilter = ({ showModal, setShowModal, keys }) => {
       <div className="ColumnFilterModal">
         <EachFilter keys={keys} />
         <div className="FilterActions">
-          <button className="AddFilter">+</button>
+          <button className="AddFilter"><RiAddFill/></button>
           <button className="ClearFilter">clear all filters</button>
         </div>
         <div className="ModalActions">

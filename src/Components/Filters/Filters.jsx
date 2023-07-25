@@ -2,7 +2,7 @@ import React from 'react';
 import "./Filters.scss";
 import SearchFilter from '../SearchFilter/SearchFilter';
 
-const Filters = ({setShowModal}) => {
+const Filters = ({setShowModal, setSearchFilter}) => {
 
   const showModal = () => {
     setShowModal(true);
@@ -10,7 +10,7 @@ const Filters = ({setShowModal}) => {
 
   return (
     <div className='Filters'>
-        <SearchFilter/>
+        <SearchFilter setSearchFilter={setSearchFilter}/>
         <button className='ColumnFilterButton' onClick={showModal}>manage filters</button>
     </div>
   )
